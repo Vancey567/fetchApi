@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.2.0/css/all.min.css" integrity="sha512-6c4nX2tn5KbzeBJo9Ywpa0Gkt+mzCzJBrE1RB6fmpcsoN+b/w/euwIMuQKNyUoU/nToKN3a8SgNOtPrbW12fug==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Pokemons.com</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <div class="toast" id="toast">
+        <p class="message" id="message">hHIIdd</p>
+    </div>
+
+    <section class="container">
+        <h1 class="title">Add Pokemons</h1>
+        <div class="add">
+            <form id="addForm">
+                <div class="padding">
+                    <input type="text" class="inp" id="name" placeholder="Name">
+                    <input type="text" class="inp" id="type" placeholder="Type">
+                    <input type="text" class="inp" id="HP" placeholder="HP">
+                    <input type="text" class="inp" id="Attack" placeholder="Attack">
+                    <input type="text" class="inp" id="Defense" placeholder="Defense">
+                    <input type="text" class="inp" id="Speed" placeholder="Speed">
+                    <button class="btn" type="button" onclick="addPokemon()">Create</button>
+                </div>
+            </form>
+        </div>
+
+        <h1 class="title">All Pokemons</h1>
+        <div class="pokemons" id="pokemons">
+            <!-- <div class="pokemon">
+                <div class="" style="padding: 30px 15px;">
+                    <h1>Pikacu</h1>
+                    <h1>Electric</h1>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- <script src="./index.js"></script> -->
+    <script src="./fetchData.js"></script>
+</body>
+</html>
