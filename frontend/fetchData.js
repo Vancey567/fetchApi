@@ -1,5 +1,4 @@
 display = (pokemons) => {
-
     let overlayIndex = pokemons.length;
 
     let pokeString = "";
